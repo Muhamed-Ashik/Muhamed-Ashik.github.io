@@ -157,7 +157,7 @@ html{
 #main-section .service-title span{
     font-size: 3em;
     font-weight: bold;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     color: var(--font-custom-color);
 }
 
@@ -201,7 +201,7 @@ html{
 #technologies .technologies-title{
     font-size: var(--main-heading-font-size);
     font-weight: bold;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     height: 10rem;
     display: flex;
     flex-direction: row;
@@ -254,7 +254,7 @@ html{
     height: 10rem;
     font-size: var(--main-heading-font-size);
     font-weight: bold;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
      display: flex;
     flex-direction:row;
     justify-content: center; 
@@ -291,7 +291,7 @@ html{
     height: 10rem;
     font-size: var(--main-heading-font-size);
     font-weight: bold;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     text-align: center;
     display: flex;
     flex-direction: row;
