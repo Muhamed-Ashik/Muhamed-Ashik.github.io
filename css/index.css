@@ -157,7 +157,7 @@ html{
 #main-section .service-title span{
     font-size: 3em;
     font-weight: bold;
-    
+    text-transform: uppercase;
     color: var(--font-custom-color);
 }
 
