@@ -127,12 +127,13 @@ html{
 }
 
 #main-section #about-us .about-us-details{
-    text-align: left;
+    
      display: flex;
      flex-direction: row;
      justify-content: center;
      align-items: center;
      height: 23rem;
+     text-align: justify ;
 }
 
 /* ----- / about us editings ---- */
