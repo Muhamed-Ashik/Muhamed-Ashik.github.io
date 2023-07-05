@@ -48,16 +48,19 @@ html{
 /* ----- intro editings ----- */
 
 .intro{
-    height: 50rem !important;
+    /* height: 50% !important; */
+    margin-top: 10em !important;
     display: flex;
     flex-direction: row;
-    justify-content: left;
-    align-items:center;
+    justify-content: center;
+    align-items : center !important;
+    
+    
 }
-
+/* 
 .intro .intro-details{
     margin-top: -30%;
-}
+} */
 
 
 .intro .intro-heading span{
@@ -365,7 +368,134 @@ html{
 
 /*  --- / footer-editings --- */
 
+@media only screen and (min-width: 1440px){
+
+    #footer-section .footer-details .copyrights{
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+}
+
+/* tablet - 768px */
+@media only screen and (max-width: 768px) {
+
+    .intro{
+        margin-top: 20% !important;
+    }
+
+    .intro .intro-heading span{
+        font-size: 3em;
+    }
+
+    .intro .intro-heading span:last-child{
+        font-size: 2em;
+    }
 
 
+    .intro .intro-btn button{
+
+        width: 120px !important;
+
+    }   
+
+    #footer-section .footer-details .copyrights{
+        font-size: 0.9em;
+    }
+}
 
 
+/* mobile large - 425px */
+
+@media only screen and (max-width: 425px) {
+
+    #header-section{
+        width: 100% !important;
+        height: 100vh !important;
+    }
+    
+
+    .intro{
+        margin-top: 0 !important;
+    }
+
+    .intro .intro-heading span{
+        font-size: 3em;
+    }
+
+    .intro .intro-heading span:last-child{
+        font-size: 2.3em;
+    }
+    
+
+    .intro .intro-btn button{
+
+        width: 120px !important;
+
+    }
+
+   #footer-section .footer-details .header-links a{
+       padding: 0 1.4%;
+   }
+
+   #footer-section .footer-details .copyrights{
+       font-size: 0.9em;
+   }
+
+}
+
+/* mobile medium - 375px */
+ @media only screen and (max-width: 375px) {
+
+
+    #header-section{
+      width: 100vw !important;
+    }
+
+    .intro .intro-heading span{
+        font-size: 3em;
+    }
+
+    .intro .intro-heading span:last-child{
+        font-size: 2em;
+    }
+
+    .intro .intro-para {
+        
+        text-align: justify;
+    }
+
+    .intro .intro-btn button{
+
+        width: 120px !important;
+
+    }
+
+    #main-section #about-us .about-us-details p{
+        /* color: red !important; */
+        margin-top: 20% !important;
+    }
+
+    #main-section #about-us #education{
+        margin-top: 20%;
+    }
+
+    #main-section #contact .card{
+        width: 100vw;
+    }
+
+    #footer-section .header-links{
+        border: 1px solid red;
+        display: flex !important;
+        flex-direction: row !important;
+        color: red !important;
+        justify-items: center;
+        align-items: center;
+    }
+   
+
+ }
+
+/* mobile small - 320px */
