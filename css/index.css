@@ -389,6 +389,7 @@ html{
 
     .intro .intro-heading span{
         font-size: 3em;
+        color: green !important;
     }
 
     .intro .intro-heading span:last-child{
@@ -425,6 +426,7 @@ html{
 
     .intro .intro-heading span{
         font-size: 3em;
+        color: red !important;
     }
 
     .intro .intro-heading span:last-child{
@@ -458,6 +460,7 @@ html{
 
     .intro .intro-heading span{
         font-size: 3em;
+        color: blue !important;
     }
 
     .intro .intro-heading span:last-child{
