@@ -127,6 +127,7 @@ html{
 
 #main-section #about-us .about-us-img img{
     border-radius: 50%;
+    width: 20em;
 }
 
 #main-section #about-us .about-us-details{
